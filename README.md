@@ -1,23 +1,37 @@
-# menu_driven_unit_converter_C
-C program that converts between US and metric length and weight units using a menu-driven interface.
+# Menu-Driven Unit Converter 
 
-Features:
-Length Conversion: 
-  - Feet/Inches to Meters/Centimeters
-  - Meters/Centimeters to Feet/Inches
-    
-Weight Conversion: 
-  - Pounds/Ounces to Kilograms/Grams
-  - Kilograms/Grams to Pounds/Ounces
-    
-Input Validation: 
-  - Prevents crashes from non-numeric input.
-  - Ensures values for physical measurements remain non-negative.
-  - Restricts menu choices to valid options only.
+A beginner-friendly C program that converts between U.S. and metric units for length and weight using a menu-driven interface.
 
-Skills Demonstrated:
+## Features
+- Convert feet and inches to meters and centimeters
+- Convert meters and centimeters to feet and inches
+- Convert pounds and ounces to kilograms and grams
+- Convert kilograms and grams to pounds and ounces
+- Handle invalid menu and number input
+
+## Skills Demonstrated
 - C programming
 - Functions and modular design
 - User input validation
-- Menu navigation
+- Console-based menu navigation
 - Debugging and program flow control
+
+## File
+- `unit_converter.c`
+
+## How to Compile
+```bash```
+gcc unit_converter.c -o unit_converter
+
+## How to Run
+
+You will need a C compiler such as `gcc` installed on your system.
+
+1. Open a terminal (or command prompt) in the folder that contains `unit_converter.c`.
+2. Compile the program:
+
+```bash```
+gcc unit_converter.c -o unit_converter
+
+
+
